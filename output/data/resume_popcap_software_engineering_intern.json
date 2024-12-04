@@ -1,0 +1,173 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Hamed Tavakoli Dastjerdi",
+    "label": "uOttawa CS Student, Game Developer",
+    "email": "HamedTava@outlook.com",
+    "phone": "(613) 294-6363",
+    "location": {
+      "address": "36 Robinson Ave.",
+      "postalCode": "K1N 0G4",
+      "city": "Ottawa",
+      "countryCode": "CA",
+      "region": "Ontario"
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "Qerope",
+        "url": "https://Github.com/Qerope"
+      },
+      {
+        "network": "Linkedin",
+        "username": "/Qerope",
+        "url": "https://linkedin.com/in/Qerope"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Hitachi",
+      "position": "Site Deployment Intern",
+      "startDate": "2024-05-01",
+      "endDate": "Present",
+      "summary": "Reduced deployment time by 300% through the development of automated configuration scripts. \n Designed an automated predictive maintenance system, reducing operational downtime by 20%. \n Introduced CI/CD pipelines with Jenkins for deployment automation, streamlining testing and integration. \n Documented configuration processes to improve team onboarding and operational efficiency."
+    },
+    {
+      "name": "Broken Teapot Studios Inc.",
+      "position": "Game Developer Intern",
+      "startDate": "2024-01-01",
+      "endDate": "2024-01-31",
+      "summary": "Implemented dynamic AI routines for NPCs using C# in Unity, improving gameplay fluidity and player engagement. \n Optimized game shader performance by 115% by refactoring C++ code and streamlining resource management. \n Designed and developed Unity-based tools to assist with level generation and puzzle-solving mechanics, resulting in a 25% increase in user retention."
+    },
+    {
+      "name": "PanQ Game Studio",
+      "position": "Game Developer",
+      "startDate": "2020-11-01",
+      "endDate": "2022-11-30",
+      "summary": "Founded PanQ, an indie game studio specializing in Unity-based mobile games. \n Designed and developed successful titles like 'Focus!' and 'Spycer,' which achieved high user ratings and positive reviews. \n Integrated CI/CD practices into development workflows, using GitLab to automate builds and deployments. \n Generated revenue through in-app advertisements and achieved scalable growth using modular Unity scripts."
+    },
+    {
+      "name": "RTXComputers Electronics Provider",
+      "position": "Full Stack Web Developer",
+      "startDate": "2022-05-01",
+      "endDate": "2022-08-31",
+      "summary": "Built web tools supporting customer-facing applications, gaining hands-on experience in CI/CD tools like Jenkins. \n Utilized principles of object-oriented design to develop back-end systems that integrate seamlessly with front-end components. \n Strengthened collaborative workflows by employing Git for version control in a team environment."
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "uOttaHack",
+      "position": "Development Lead",
+      "startDate": "2023-07-01",
+      "endDate": "Present",
+      "summary": "Directed technical projects using CI/CD workflows to ensure quality and on-time delivery. Guided junior developers in building interactive and gamified web features."
+    },
+    {
+      "organization": "Engineering Students' Society, University of Ottawa",
+      "position": "Board of Directors Member",
+      "startDate": "2023-09-01",
+      "endDate": "2024-04-30"
+    },
+    {
+      "organization": "Engineering Student Societies' Council of Ontario",
+      "position": "CALE 2024 Conference Organizer",
+      "startDate": "2023-11-01",
+      "endDate": "2024-03-31"
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Ottawa",
+      "url": "https://uottawa.ca",
+      "area": "Computer Science, Minor in Physics",
+      "studyType": "Bachelor of Science",
+      "startDate": "2022-09-01",
+      "endDate": "2026-04-01",
+      "summary": "Conducted research in game physics, focusing on simulation accuracy for interactive media. Awarded multiple scholarships totaling over $40,000 per annum. Dean's honour list."
+    }
+  ],
+  "awards": [
+    {
+      "title": "Scholarship for Merit through Innovation in Student Publications",
+      "date": "2024-02-01",
+      "awarder": "UOSU"
+    },
+    {
+      "title": "Solutions Lab & Idea\u2019s Lab Award",
+      "date": "2023-02-01",
+      "awarder": "University of Ottawa - eHub - MDA"
+    },
+    {
+      "title": "5G Connectivity for Cross Border Challenge",
+      "date": "2023-07-01",
+      "awarder": "Telus"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Art Directing Games with Vision and Purpose",
+      "issuer": "Iran Computer and Video Games Foundation"
+    },
+    {
+      "name": "Java Programming, Problem Solving",
+      "issuer": "HackerRank"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Game Development",
+      "keywords": [
+        "Unity",
+        "Unreal Engine",
+        "C#",
+        "C++",
+        "Java",
+        "Game Physics",
+        "AI for Games",
+        "Procedural Content Generation",
+        "Shader Optimization"
+      ]
+    },
+    {
+      "name": "Programming",
+      "keywords": [
+        "Python",
+        "Java",
+        "C/C++",
+        "C#",
+        "Lua",
+        "HTML/CSS",
+        "SQL"
+      ]
+    },
+    {
+      "name": "CI/CD Tools",
+      "keywords": [
+        "Jenkins",
+        "GitLab",
+        "Docker",
+        "Git",
+        "Postman",
+        "Shell Scripting"
+      ]
+    },
+    {
+      "name": "Technologies",
+      "keywords": [
+        "Edge Computing",
+        "Machine Learning",
+        "Big Data",
+        "Web3"
+      ]
+    },
+    {
+      "name": "Languages",
+      "keywords": [
+        "English",
+        "French",
+        "Persian"
+      ]
+    }
+  ]
+}

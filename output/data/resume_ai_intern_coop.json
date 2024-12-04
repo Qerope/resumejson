@@ -1,0 +1,154 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Hamed Tavakoli Dastjerdi",
+    "label": "uOttawa CS Student, Hitachi Intern",
+    "email": "HamedTava@outlook.com",
+    "phone": "(613) 294-6363",
+    "location": {
+      "address": "36 Robinson Ave.",
+      "postalCode": "K1N 0G4",
+      "city": "Ottawa",
+      "countryCode": "CA",
+      "region": "Ontario"
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "Qerope",
+        "url": "https://Github.com/Qerope"
+      },
+      {
+        "network": "Linkedin",
+        "username": "/Qerope",
+        "url": "https://linkedin.com/in/Qerope"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Hitachi",
+      "position": "Site Deployment Intern",
+      "startDate": "2024-05-01",
+      "endDate": "Present",
+      "summary": 
+        "Optimized deployment processes by developing automated configuration scripts in Python, achieving a 300% improvement in efficiency.\nDesigned predictive maintenance systems leveraging machine learning, reducing operational downtime by 20%.\nDeveloped technical documentation and training resources to standardize deployment protocols."
+    },
+    {
+      "company": "Broken Teapot Studios Inc.",
+      "position": "Game Developer Intern",
+      "startDate": "2024-01-01",
+      "endDate": "2024-01-31",
+      "summary": 
+        "Implemented AI-driven NPC routines, enhancing player engagement by creating dynamic gameplay scenarios.\nOptimized rendering performance by 115% through efficient resource management and shader code refactoring.\nDesigned an innovative puzzle-solving mechanic leveraging AI, boosting user retention by 25%."
+    },
+    {
+      "company": "PanQ Game Studio",
+      "position": "Game Developer",
+      "startDate": "2020-11-01",
+      "endDate": "2022-11-30",
+      "summary": 
+        "Developed AI-powered features for multiple games, including dynamic decision-making algorithms for gameplay enhancement.\nSpecialized in integrating AI mechanics for real-time player adaptability.\nReleased 'Focus!' and 'Spycer', achieving high user ratings and commercial success."
+    }
+  ],
+  "projects": [
+    {
+      "name": "Web Navigation AI Assistant For The Elderly",
+      "startDate": "2024-09-15",
+      "endDate": "2024-09-17",
+      "summary": [
+        "Built a custom AI model using TensorFlow for intuitive interaction with elderly users.",
+        "Developed a robust backend and user-friendly interface, ensuring accessibility."
+      ]
+    },
+    {
+      "name": "Qews News Platform",
+      "startDate": "2021-04-01",
+      "endDate": "2022-11-30",
+      "summary": 
+        "Launched a smart AI news aggregator leveraging collaborative and content-based filtering.\nImplemented NLP techniques for news categorization and recommendation, achieving 500,000+ downloads."
+    },
+    {
+      "name": "Elysium Kernel",
+      "startDate": "2022-08-01",
+      "endDate": "2024-08-01",
+      "summary": 
+        "Developed an OS for RISC-V architecture, incorporating AI-driven optimization algorithms.\nOpen-source project with community-driven contributions."
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "uOttaHack",
+      "position": "Development Lead",
+      "startDate": "2023-07-01",
+      "endDate": "Present"
+    },
+    {
+      "organization": "Engineering Students' Society, University of Ottawa",
+      "position": "Board of Directors Member",
+      "startDate": "2023-09-01",
+      "endDate": "2024-04-30"
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Ottawa",
+      "url": "https://uottawa.ca",
+      "area": "Computer Science, Minor in Physics",
+      "studyType": "Bachelor of Science",
+      "startDate": "2022-09-01",
+      "endDate": "2026-04-01",
+      "summary": 
+        "Engaged in advanced coursework in AI, machine learning, and computer vision.\nAchieved Dean's Honour List for outstanding academic performance."
+    }
+  ],
+  "awards": [
+    {
+      "title": "5G Connectivity for Cross Border Challenge",
+      "date": "2023-07-01",
+      "awarder": "Telus"
+    },
+    {
+      "title": "Solutions Lab & Idea's Lab Award",
+      "date": "2023-02-01",
+      "awarder": "University of Ottawa - eHub - MDA"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Deep Learning Specialization",
+      "issuer": "Coursera (Andrew Ng)",
+      "date": "2023-05-01"
+    },
+    {
+      "name": "Network Security, Python Programming, 5G/3GPP",
+      "issuer": "Huawei Talent"
+    },
+    {
+      "name": "TensorFlow Developer Certificate",
+      "issuer": "Google",
+      "date": "2023-11-01"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "keywords": ["Python", "C", "C++", "Java", "MATLAB"]
+    },
+    {
+      "name": "AI & Machine Learning",
+      "keywords": [
+        "Machine Learning", "Deep Learning", "TensorFlow", "PyTorch", "Scikit-learn", "Natural Language Processing (NLP)", 
+        "Computer Vision", "Model Optimization", "Hyperparameter Tuning", "Data Preprocessing"
+      ]
+    },
+    {
+      "name": "Tools & Frameworks",
+      "keywords": ["Git", "Docker", "Keras", "OpenCV", "Linux", "AWS", "Google Cloud"]
+    },
+    {
+      "name": "Other Skills",
+      "keywords": ["Teamwork", "Problem-Solving", "Analytical Thinking", "Clearance Eligibility"]
+    }
+  ]
+}

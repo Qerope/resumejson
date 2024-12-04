@@ -1,0 +1,184 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Hamed Tavakoli Dastjerdi",
+    "label": "uOttawa CS Student, Hitachi Intern",
+    "email": "HamedTava@outlook.com",
+    "phone": "(613) 294-6363",
+    "location": {
+      "address": "36 Robinson Ave.",
+      "postalCode": "K1N 0G4",
+      "city": "Ottawa",
+      "countryCode": "CA",
+      "region": "Ontario"
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "Qerope",
+        "url": "https://Github.com/Qerope"
+      },
+      {
+        "network": "Linkedin",
+        "username": "/Qerope",
+        "url": "https://linkedin.com/in/Qerope"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Hitachi",
+      "position": "Site Deployment Intern",
+      "startDate": "2024-05-01",
+      "endDate": "Present",
+      "summary": "Reduced deployment time by 300% through the development of automated configuration scripts. Designed automated predictive maintenance systems, reducing operational downtime by 20%. Created comprehensive documentation and training materials for deployment processes."
+    },
+    {
+      "name": "Broken Teapot Studios Inc.",
+      "position": "Game Developer Intern",
+      "startDate": "2024-01-01",
+      "endDate": "2024-01-31",
+      "summary": "Optimized game logic using scripting languages like Lua and Python. Developed dynamic systems for user interaction and security testing. Enhanced debugging tools to improve performance and security."
+    },
+    {
+      "name": "RTXComputers Electronics Provider",
+      "position": "Full Stack Web Developer",
+      "startDate": "2022-05-01",
+      "endDate": "2022-08-31",
+      "summary": "Collaborated with teams to optimize backend security for web applications. Designed and implemented secure API integrations. Strengthened knowledge of network protocols and cybersecurity practices."
+    },
+    {
+      "name": "PanQ Game Studio",
+      "position": "Game Developer",
+      "startDate": "2020-11-01",
+      "endDate": "2022-11-30",
+      "summary": "Developed and tested secure game mechanics to protect user data. Integrated algorithms to simulate network traffic in online game environments. Enhanced game stability through detailed debugging and vulnerability testing."
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "uOttaHack",
+      "position": "Development Lead",
+      "startDate": "2023-07-01",
+      "endDate": "Present"
+    },
+    {
+      "organization": "Engineering Students' Society, University of Ottawa",
+      "position": "Board of Directors Member",
+      "startDate": "2023-09-01",
+      "endDate": "2024-04-30"
+    },
+    {
+      "organization": "Engineering Student Societies' Council of Ontario",
+      "position": "CALE 2024 Conference Organizer",
+      "startDate": "2023-11-01",
+      "endDate": "2024-03-31"
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Ottawa",
+      "url": "https://uottawa.ca",
+      "area": "Computer Science, Minor in Physics",
+      "studyType": "Bachelor of Science",
+      "startDate": "2022-09-01",
+      "endDate": "2026-04-01",
+      "summary": "Engaged in research on operating systems and security protocols. Developed projects emphasizing vulnerability analysis and network security. Maintained a consistent Dean's honour list status."
+    }
+  ],
+  "awards": [
+    {
+      "title": "5G Connectivity for Cross Border Challenge",
+      "date": "2023-07-01",
+      "awarder": "Telus"
+    },
+    {
+      "title": "Solutions Lab & Idea\u2019s Lab Award",
+      "date": "2023-02-01",
+      "awarder": "University of Ottawa - eHub - MDA"
+    },
+    {
+      "title": "Scholarship for Merit through Innovation in Student Publications",
+      "date": "2024-02-01",
+      "awarder": "UOSU"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Network Security, Python Programming, 5G/3GPP",
+      "issuer": "Huawei Talent"
+    },
+    {
+      "name": "Java Programming, Problem Solving",
+      "issuer": "HackerRank"
+    },
+    {
+      "name": "Introduction to Statistics",
+      "issuer": "Stanford University"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Impact Of Telemedicine Intervention On Patient Satisfaction For Hypertensive Patients",
+      "publisher": "URNCST Journal",
+      "releaseDate": "2023-02-01",
+      "summary": "",
+      "url": "https://doi.org/10.26685/urncst.505"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming",
+      "keywords": [
+        "C/C++",
+        "Java",
+        "Python",
+        "Ruby",
+        "Perl",
+        "Lua",
+        "Bash",
+        "Lisp",
+        "Haskell",
+        "Prolog"
+      ]
+    },
+    {
+      "name": "Networking and Operating Systems",
+      "keywords": [
+        "OSI Model",
+        "TCP/IP",
+        "Networking Protocols",
+        "Operating Systems",
+        "Network Traffic Analysis"
+      ]
+    },
+    {
+      "name": "Security Analysis",
+      "keywords": [
+        "Vulnerability Research",
+        "Bug Bounty",
+        "CTFs",
+        "Cryptography",
+        "Security Concepts"
+      ]
+    },
+    {
+      "name": "Tools",
+      "keywords": [
+        "Git",
+        "Docker",
+        "JIRA",
+        "CI/CD",
+        "Postman"
+      ]
+    },
+    {
+      "name": "Languages",
+      "keywords": [
+        "English",
+        "French",
+        "Persian"
+      ]
+    }
+  ]
+}

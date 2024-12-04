@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "jsonresume-theme-stackoverflow-crewshin": "^2.0.9",
+    "puppeteer": "^23.9.0"
+  }
+}

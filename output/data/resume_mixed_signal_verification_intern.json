@@ -1,0 +1,48 @@
+{
+    "work": [
+        {
+            "name": "Hitachi",
+            "position": "Mixed Signal Verification Engineer Intern",
+            "startDate": "2025-05-01",
+            "endDate": "2026-08-31",
+            "summary": "Seeking an internship opportunity to apply my knowledge and skills in mixed-signal verification engineering. Proficient in scripting languages (Perl, Python) and familiar with Verilog/SystemVerilog. Eager to contribute to innovative projects and gain practical experience in the field."
+        }
+    ],
+    "volunteer": [
+        {
+            "organization": "University of Ottawa",
+            "position": "Bachelor of Engineering",
+            "startDate":"2023-09-01",
+            "endDate": "2026-04-01"
+        }
+    ],
+    "education": [
+        {
+            "institution":"Mixed Signal Verification",
+            "area": "Proficient in analog circuit design and verification techniques, including bandgap, opamp, PLL, and transmitter/receiver circuits."
+        ,
+        "studyType": "Familiar with Verilog and SystemVerilog for testbench development and simulation."
+        ,
+        "startDate":"2023-09-01",
+        "endDate": "2026-04-01"
+        },
+        {
+            "institution":"Scripting and Programming",
+            "area": "Skilled in Perl and Python for automation and scripting tasks. Proficient in Unix shell scripting."
+        ,
+        "studyType": "Experience with version control systems like Git for collaborative development."
+        ,
+        "startDate": "2023-09-01",
+        "endDate": "2026-04-01"
+        },
+        {
+            "institution":"UVM and VMM",
+            "area": "Familiar with Universal Verification Methodology (UVM) and Verification Methodology Manual (VMM) for testbench development and verification."
+        ,
+        "studyType": "Experience in creating reusable testbenches and verification components."
+        ,
+        "startDate": "2023-09-01",
+        "endDate": "2026-04-01"
+        }
+    ],
+    "awards":[]
