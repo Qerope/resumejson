@@ -189,7 +189,7 @@ def main_interface():
 
 
         async def on_generate_resume(gen_cv_data, job_data):
-            logging.info(f"Generating resume with data from selected CV file: {selected_cv_file}")
+            logging.info(f"Generating resume with data")
                 
             return await generate_resume(gen_cv_data, job_data)
 
