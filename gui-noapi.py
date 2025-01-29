@@ -188,18 +188,13 @@ def main_interface():
             return jd, (resume_content + chat_prompt + json.dumps(jd))  # Combine job data and prompt
 
 
-        async def on_generate_resume(selected_cv_file, job_data):
+        async def on_generate_resume(gen_cv_data, job_data):
             logging.info(f"Generating resume with data from selected CV file: {selected_cv_file}")
-            
-            # Load the selected CV file from the References folder
-            cv_file_path = os.path.join("./references", selected_cv_file)
-            with open(cv_file_path, 'r') as file:
-                resume_data = file.read()
                 
-            return await generate_resume(resume_data, job_data)
+            return await generate_resume(gen_cv_data, job_data)
 
         summarize_btn.click(on_summarize, inputs=[cv_file_dropdown, job_description], outputs=[job_data_display, chat_prompt_output])
-        generate_resume_btn.click(on_generate_resume, inputs=[cv_file_dropdown, job_data_display], outputs=[html_display, html_display_link])
+        generate_resume_btn.click(on_generate_resume, inputs=[gen_cv_data, job_data_display], outputs=[html_display, html_display_link])
 
     return demo
 

@@ -122,9 +122,6 @@
             "startDate": "2020-10-01",
             "endDate": "2022-12-30",
             "description": "Designed and developed 'Qews' a news aggregator platform that crawls and consolidates news content from multiple websites across various categories. Built a feature-rich Android application using Java and implemented the website and web services with CodeIgniter 4, ensuring efficient data processing, seamless integration, and a user-friendly experience.",
-            "highlights": [
-                "Winner of Iran's Best Android App Award 2021 for 'Qews' development."
-            ],
             "url": ""
         },
         {
@@ -132,9 +129,6 @@
             "startDate": "2020-04-01",
             "endDate": "2019-02-01",
             "description": "Developed a web-based solution for AramicMedtour, a medical tourism platform connecting patients with healthcare professionals worldwide, using React.js and SQL. Gained experience addressing healthcare accessibility challenges through innovative technology. The project ended due to Covid-19, providing valuable insights into adaptability and professional growth",
-            "highlights": [
-                "Honed leadership and adaptability while navigating pandemic challenges."
-            ],
             "url": ""
         }
     ]
