@@ -122,7 +122,6 @@ async def generate_resume(cv_data_raw, job_data):
 
         os.makedirs("./output/pdf", exist_ok=True)
         output_pdf_path = f"/output/pdf/{job_data['shortname']}.pdf"
-        output_html_path = f"/output/pdf/{job_data['shortname']}.html"
         
         # Generate the PDF asynchronously
         resume_html = await display_html(output_html_path)  # Read HTML content
