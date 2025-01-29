@@ -53,8 +53,6 @@
             "endDate": "2023-12-31",
             "summary": "Leveraged years of experience competing in robotics competitions, including Robocup, FIRA RoboCup, and World Robotics Olympiad, across categories such as Rescue A/B, Soccer, Robo Sports, and Open. Achieved multiple national No.1 rankings and proudly represented Iran on the international stage. Transitioned to coaching with the Fazili team to mentor and inspire the next generation of robotics enthusiasts. Taught Python and C/C++, fostered effective problem-solving under pressure, and guided students to achieve significant competitive success.",
             "highlights": [
-                "Coached teams to win 6+ junior national championships.",
-                "Developed programs to expand membership and reach."
             ]
         }
     ],
@@ -72,6 +70,10 @@
                 "Statistical Computing",
                 "Machine Learning",
                 "Data Visualization"
+            ],
+            "highlights": [
+                "Coached teams to win 6+ junior national championships.",
+                "Developed programs to expand membership and reach."
             ]
         }
     ],
@@ -92,7 +94,6 @@
     "skills": [
         {
             "name": "Software and Web Development",
-            "level": "Advanced",
             "keywords": [
                 "Python",
                 "JavaScript",
@@ -105,7 +106,6 @@
         },
         {
             "name": "Data Analysis and Visualization",
-            "level": "Advanced",
             "keywords": [
                 "Python",
                 "R",
@@ -116,16 +116,6 @@
             ]
         }
     ],
-    "languages": [
-        {
-            "language": "English",
-            "fluency": "Native speaker"
-        },
-        {
-            "language": "Farsi",
-            "fluency": "Native speaker"
-        }
-    ],
     "projects": [
         {
             "name": "Qews",
@@ -133,7 +123,7 @@
             "endDate": "2022-12-30",
             "description": "Designed and developed 'Qews' a news aggregator platform that crawls and consolidates news content from multiple websites across various categories. Built a feature-rich Android application using Java and implemented the website and web services with CodeIgniter 4, ensuring efficient data processing, seamless integration, and a user-friendly experience.",
             "highlights": [
-                "Winner of Iranâs Best Android App Award 2021 for 'Qews' development."
+                "Winner of Iran's Best Android App Award 2021 for 'Qews' development."
             ],
             "url": ""
         },

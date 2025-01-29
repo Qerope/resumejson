@@ -19,6 +19,7 @@ RUN apt-get update && apt-get install -y \
     libgtk-3-0 \
     libgbm-dev \
     libxtst6 \
+    chromium \
     && rm -rf /var/lib/apt/lists/*
 
 # Install Node.js (for the npm install command)
@@ -34,6 +35,8 @@ COPY . /app
 # Install Python dependencies
 RUN pip install --upgrade pip
 RUN pip install gradio cohere pyppeteer playwright
+
+RUN npm install -g resume-cli
 
 # Install Node.js dependencies
 RUN npm install
