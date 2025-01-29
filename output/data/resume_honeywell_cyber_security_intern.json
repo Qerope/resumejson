@@ -1,0 +1,194 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Hamed Tavakoli Dastjerdi",
+    "label": "Cybersecurity Enthusiast, uOttawa CS Student",
+    "email": "HamedTava@outlook.com",
+    "phone": "(613) 294-6363",
+    "location": {
+      "address": "36 Robinson Ave.",
+      "postalCode": "K1N 0G4",
+      "city": "Ottawa",
+      "countryCode": "CA",
+      "region": "Ontario"
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "Qerope",
+        "url": "https://Github.com/Qerope"
+      },
+      {
+        "network": "Linkedin",
+        "username": "/Qerope",
+        "url": "https://linkedin.com/in/Qerope"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Hitachi",
+      "position": "Site Deployment Intern",
+      "startDate": "2024-05-01",
+      "endDate": "Present",
+      "summary": "Developed automated scripts to enhance system security and reduce configuration vulnerabilities. \n Designed predictive maintenance systems, implementing risk assessments to prevent security incidents. \n Authored detailed security documentation and provided staff training to improve awareness and response."
+    },
+    {
+      "name": "RTXComputers Electronics Provider",
+      "position": "Full Stack Web Developer",
+      "startDate": "2022-05-01",
+      "endDate": "2022-08-31",
+      "summary": "Developed secure web applications incorporating user authentication and encryption. \n Conducted vulnerability scans and implemented secure coding practices, reducing attack vectors. \n Collaborated with the marketing team to ensure data privacy compliance during customer interactions."
+    },
+    {
+      "name": "PanQ Game Studio",
+      "position": "Game Developer",
+      "startDate": "2020-11-01",
+      "endDate": "2022-11-30",
+      "summary": "Designed game logic emphasizing secure multiplayer protocols and network stability. \n Integrated encrypted communications and real-time incident response systems for user safety."
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "uOttaHack",
+      "position": "Development Lead",
+      "startDate": "2023-07-01",
+      "endDate": "Present",
+      "summary": "Organized workshops on cybersecurity basics and secure software development practices."
+    },
+    {
+      "organization": "Engineering Students' Society, University of Ottawa",
+      "position": "Board of Directors Member",
+      "startDate": "2023-09-01",
+      "endDate": "2024-04-30"
+    },
+    {
+      "organization": "Engineering Student Societies' Council of Ontario",
+      "position": "CALE 2024 Conference Organizer",
+      "startDate": "2023-11-01",
+      "endDate": "2024-03-31"
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Ottawa",
+      "url": "https://uottawa.ca",
+      "area": "Computer Science, Minor in Physics",
+      "studyType": "Bachelor of Science",
+      "startDate": "2022-09-01",
+      "endDate": "2026-04-01",
+      "summary": "Engaged in research on secure communications and network protocols. Recipient of multiple scholarships over $40,000/annum. Dean's honour list."
+    }
+  ],
+  "awards": [
+    {
+      "title": "5G Connectivity for Cross Border Challenge",
+      "date": "2023-07-01",
+      "awarder": "Telus",
+      "summary": "Contributed to a secure 5G system by analyzing network vulnerabilities and designing solutions to enhance data integrity."
+    },
+    {
+      "title": "Solutions Lab & Idea\u2019s Lab Award",
+      "date": "2023-02-01",
+      "awarder": "University of Ottawa - eHub - MDA"
+    },
+    {
+      "title": "Scholarship for Merit through Innovation in Student Publications",
+      "date": "2024-02-01",
+      "awarder": "UOSU"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Network Security, Python Programming, 5G/3GPP",
+      "issuer": "Huawei Talent"
+    },
+    {
+      "name": "Introduction to Statistics",
+      "issuer": "Stanford University"
+    },
+    {
+      "name": "Java Programming, Problem Solving",
+      "issuer": "HackerRank"
+    },
+    {
+      "name": "Art Directing Games with Vision and Purpose",
+      "issuer": "Iran Computer and Video Games Foundation"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Impact Of Telemedicine Intervention On Patient Satisfaction For Hypertensive Patients",
+      "publisher": "URNCST Journal",
+      "releaseDate": "2023-02-01",
+      "url": "https://doi.org/10.26685/urncst.505"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "keywords": [
+        "C",
+        "C++",
+        "Python",
+        "Java",
+        "Bash",
+        "JavaScript",
+        "SQL"
+      ]
+    },
+    {
+      "name": "Cybersecurity",
+      "keywords": [
+        "Network Security",
+        "Risk Assessment",
+        "Incident Response",
+        "Vulnerability Scanning",
+        "Security Monitoring",
+        "Security Alerts",
+        "Cryptography",
+        "Threat Modeling",
+        "IDS/IPS"
+      ]
+    },
+    {
+      "name": "Security Tools",
+      "keywords": [
+        "Wireshark",
+        "tcpdump",
+        "Splunk",
+        "ELK Stack",
+        "SIEM",
+        "DDoS Protection"
+      ]
+    },
+    {
+      "name": "Frameworks",
+      "keywords": [
+        "TensorFlow",
+        "Node.js",
+        "React",
+        "Flask",
+        "Bootstrap"
+      ]
+    },
+    {
+      "name": "Cloud & DevOps",
+      "keywords": [
+        "AWS",
+        "Docker",
+        "Kubernetes",
+        "Terraform",
+        "Jenkins"
+      ]
+    },
+    {
+      "name": "Languages",
+      "keywords": [
+        "English",
+        "French",
+        "Persian"
+      ]
+    }
+  ]
+}

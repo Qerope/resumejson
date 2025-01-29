@@ -1,0 +1,151 @@
+{
+    "basics": {
+        "name": "Amirali Tabesh",
+        "label": "Economics Student",
+        "email": "Amiralitabesh1383@gmail.com",
+        "phone": "613-293-8369",
+        "summary": "Creative and results-driven Economics student at Carleton University, specializing in Computational Analysis and Economic Data Science. Passionate about data-driven solutions and tackling real-world challenges through innovative thinking. Experienced in software development and data analysis, with a foundation in robotics that shaped a strong problem-solving mindset. Thrives under pressure, adapts to challenges, and excels in dynamic environments. Seeking to apply technical expertise and creativity to develop impactful solutions that drive positive change and shape a better future",
+        "location": {
+            "address": "",
+            "postalCode": "",
+            "city": "Ottawa",
+            "countryCode": "CA",
+            "region": "Ontario"
+        },
+        "profiles": [
+            {
+                "network": "Linkedin",
+                "username": "Amirali Tabesh",
+                "url": "https://www.linkedin.com/in/amirali-tabesh-24975a254?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            }
+        ]
+    },
+    "work": [
+        {
+            "name": "Postbar",
+            "position": "Software Developer",
+            "startDate": "2017-10-01",
+            "endDate": "2021-11-31",
+            "summary": "Developed and maintained core features and basemaps critical to Postbar's functionality, enabling thousands of concurrent long-distance package deliveries with accurate, consistent, and real-time data models. Designed and implemented user-centric solutions to enhance the experience for both drivers and customers, utilizing JavaScript, React Native, Python, R, and SQL. Focused on optimizing scalability, performance, and reliability to support seamless operations in a high-demand, data-driven environment.",
+            "highlights": [
+                "Improved backend reliability for high-demand operations.",
+                " Enhanced user experience for drivers and customers."
+            ]
+        },
+        {
+            "name": "Huntclub VW",
+            "position": "Accountig Clerk",
+            "startDate": "2022-10-01",
+            "endDate": "2023-08-31",
+            "summary": "Managed financial transactions and reconciliations for a busy automotive dealership. Processed invoices, tracked expenses, and assisted in monthly financial reporting. Enhanced accuracy of financial records and streamlined accounting processes.",
+            "highlights": [
+                "Reconciled over 3000 invoices and financial transactions",
+                "Improved the accuracy of financial reports by 15% using PowerBI"
+            ]
+        }
+    ],
+    "volunteer": [
+        {
+            "organization": "Fazili Research and Education Center",
+            "position": "Volunteer Robotics Coach",
+            "url": "https://fazilirc.ir/",
+            "startDate": "2018-06-01",
+            "endDate": "2023-12-31",
+            "summary": "Leveraged years of experience competing in robotics competitions, including Robocup, FIRA RoboCup, and World Robotics Olympiad, across categories such as Rescue A/B, Soccer, Robo Sports, and Open. Achieved multiple national No.1 rankings and proudly represented Iran on the international stage. Transitioned to coaching with the Fazili team to mentor and inspire the next generation of robotics enthusiasts. Taught Python and C/C++, fostered effective problem-solving under pressure, and guided students to achieve significant competitive success.",
+            "highlights": [
+                "Coached teams to win 6+ junior national championships.",
+                "Developed programs to expand membership and reach."
+            ]
+        }
+    ],
+    "education": [
+        {
+            "institution": "Carleton University",
+            "url": "https://carleton.ca",
+            "area": "Economics",
+            "studyType": "Bachelor",
+            "startDate": "2022-09-01",
+            "endDate": "2027-04-30",
+            "courses": [
+                "Econometrics",
+                "Data Analysis",
+                "Statistical Computing",
+                "Machine Learning",
+                "Data Visualization"
+            ]
+        }
+    ],
+    "certificates": [
+        {
+            "name": "NoSQL and NewSQL Big Data Managspanent Mechanism",
+            "date": "2022-08-01",
+            "issuer": "Huawei Talent",
+            "url": "https://e.huawei.com/en/talent/outPage/#/sxz-course/home?courseId=z9fjNHbnmg9dw6prtKFu5MMWl3I"
+        },
+        {
+            "name": "Network Security",
+            "date": "2022-09-01",
+            "issuer": "Coursera",
+            "url": "https://e.huawei.com/en/talent/outPage/#/sxz-course/home?courseId=hfiCUOBrxyx41SlkIIGparn-Mas"
+        }
+    ],
+    "skills": [
+        {
+            "name": "Software and Web Development",
+            "level": "Advanced",
+            "keywords": [
+                "Python",
+                "JavaScript",
+                "SQL",
+                "C/C++",
+                "React Native",
+                "Node.js",
+                "PHP"
+            ]
+        },
+        {
+            "name": "Data Analysis and Visualization",
+            "level": "Advanced",
+            "keywords": [
+                "Python",
+                "R",
+                "SQL",
+                "Tableau",
+                "ggplot2",
+                "Power BI"
+            ]
+        }
+    ],
+    "languages": [
+        {
+            "language": "English",
+            "fluency": "Native speaker"
+        },
+        {
+            "language": "Farsi",
+            "fluency": "Native speaker"
+        }
+    ],
+    "projects": [
+        {
+            "name": "Qews",
+            "startDate": "2020-10-01",
+            "endDate": "2022-12-30",
+            "description": "Designed and developed 'Qews' a news aggregator platform that crawls and consolidates news content from multiple websites across various categories. Built a feature-rich Android application using Java and implemented the website and web services with CodeIgniter 4, ensuring efficient data processing, seamless integration, and a user-friendly experience.",
+            "highlights": [
+                "Winner of Iranâs Best Android App Award 2021 for 'Qews' development."
+            ],
+            "url": ""
+        },
+        {
+            "name": "AramicMedtour",
+            "startDate": "2020-04-01",
+            "endDate": "2019-02-01",
+            "description": "Developed a web-based solution for AramicMedtour, a medical tourism platform connecting patients with healthcare professionals worldwide, using React.js and SQL. Gained experience addressing healthcare accessibility challenges through innovative technology. The project ended due to Covid-19, providing valuable insights into adaptability and professional growth",
+            "highlights": [
+                "Honed leadership and adaptability while navigating pandemic challenges."
+            ],
+            "url": ""
+        }
+    ]
+}

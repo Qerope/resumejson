@@ -1,0 +1,1317 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Hamed Tavakoli Dastjerdi</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet"/>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+  <style>
+  /********************************************
+* 	reset from
+* 	http://meyerweb.com/eric/tools/css/reset/
+*******************************************/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: middle;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/****************
+*	COMMONS
+****************/
+
+body,
+html {
+  font-family: "Helvetica Neue", "Roboto", sans-serif;
+  font-size: 13px;
+  color: #40484f;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 1.46153846;
+  text-align: left;
+}
+
+p {
+  display: block;
+}
+
+a {
+  color: #0095ff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0c65a5;
+  text-decoration: underline;
+}
+
+li {
+  list-style-type: square;
+  list-style-position: outside;
+  margin-left: 1.3em;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.67rem;
+}
+
+h3 {
+  font-size: 1rem;
+}
+
+em {
+  color: #757575;
+}
+
+blockquote {
+  margin-bottom: 1em;
+}
+
+strong {
+  font-weight: 700;
+}
+
+/* main container */
+
+#resume {
+  padding: 1.5rem;
+}
+
+/* every section wrapper */
+
+.section {
+  margin-bottom: 0rem;
+}
+
+section .location {
+  margin-right: 0.5em;
+  color: #606d76;
+  font-weight: 700;
+}
+
+#contact {
+  margin-top: 0rem;
+}
+
+#profiles .item {
+  padding: 0;
+}
+
+.certificate-item .name {
+  width: 80%;
+}
+
+#certificates .header-left {
+  display: flex;
+}
+
+#certificates .header-left .name {
+  width: 100%;
+}
+
+#certificates .header-left .issuer {
+  text-align: right;
+  width: 100%;
+}
+
+.section > section > section {
+  margin-bottom: 0.25rem !important;
+}
+
+.section > section > section.award-item {
+  margin-bottom: 0 !important;
+}
+
+.section > section > section.publication-item {
+  margin-bottom: 0 !important;
+}
+
+.section > section > section.volunteer-item {
+  margin-bottom: 0 !important;
+}
+
+#header > #profiles,
+#header > #contact,
+#skills,
+#languages,
+#interests {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+#skills {
+  justify-content: flex-start;
+}
+
+#header > div {
+  line-height: 1.5;
+}
+
+#header > div > div {
+  margin-right: 1.2em;
+}
+
+#header h1.name {
+  font-size: 2.8rem;
+  font-weight: 900;
+  width: 100%;
+  line-height: 100%;
+  text-align: center;
+}
+
+#header h2.label {
+  color: #202931;
+  text-align: center;
+  font-size: 1.47rem;
+  font-weight: 500;
+}
+
+#header .image {
+  width: 11em;
+  float: right;
+  border-radius: 4px;
+}
+
+.main-summary {
+  background: #f1f8ff;
+  padding: 1.2em 1em;
+  margin-top: 1rem;
+}
+
+.main-summary p {
+  margin: 0;
+}
+
+.section-title {
+  display: inline-block;
+  background: #fff;
+  padding: 0 1em 0.3em 0;
+  color: #1f8aff;
+  text-transform: uppercase;
+  font-weight: 600;
+  border: none;
+  font-size: 0.9rem;
+}
+
+.section > header {
+  position: relative;
+}
+
+.fa {
+  margin-right: 0.25em;
+}
+
+.section > header::after {
+  position: absolute;
+  left: 0;
+  top: 0.7em;
+  height: 1px;
+  background: #ccc;
+  content: "";
+  width: 100%;
+  z-index: -100;
+  display: block;
+}
+
+.section.main-summary > section {
+  margin: 0;
+}
+
+.section > section > header {
+  font-size: 1.38rem;
+  position: relative;
+  margin-top: 0.7em;
+}
+
+.section > section > header:first-of-type {
+  margin: 0;
+}
+
+.section > section > header .space-left {
+  position: absolute;
+  left: -1.56rem;
+  top: 5px;
+  color: #aaa;
+  line-height: 1;
+  opacity: 0;
+}
+
+.position,
+.company,
+.organization,
+.institution,
+.date,
+.area,
+.studyType,
+.title,
+.awarder {
+  display: inline;
+}
+
+.position,
+.studyType,
+.area,
+.title,
+.language,
+.name {
+  font-weight: 600;
+  width: 20%;
+}
+
+.company::before,
+.institution::before,
+.organization::before,
+.awarder::before {
+  content: "at ";
+}
+
+.company,
+.institution,
+.organization,
+.awarder {
+  color: #606d76;
+  font-weight: 400;
+}
+
+.section header .date {
+  font-size: 0.9rem;
+  padding: 0.1em 0;
+  color: #606d76;
+  font-weight: 400;
+}
+
+.keywords,
+.courses {
+  margin: 0 0;
+}
+
+.keywords li,
+.courses li {
+  display: inline-block;
+  margin: 2px 2px 2px 0;
+  padding: 4px 5px 5px;
+  font-size: 0.9rem;
+  line-height: 1;
+  color: #3e6d8e;
+  background-color: #dfeaf1;
+  border: 0 solid #dfeaf1;
+  white-space: nowrap;
+}
+
+.keywords li:hover,
+.courses li:hover {
+  background: #dfeaf0;
+}
+
+.highlights {
+  margin: 1em 0 0 0;
+}
+
+.highlights > li > p {
+  margin-bottom: 0.5em;
+}
+
+.item {
+  overflow: hidden;
+}
+
+.gpa {
+  clear: both;
+  padding-bottom: 0.5em;
+}
+
+.fa.social {
+  font-size: 1.1em;
+}
+
+/* Social Media Brand Colors */
+
+.google-plus {
+  color: #dd4b39;
+}
+
+.tumblr {
+  color: #32506d;
+}
+
+.foursquare {
+  color: #0072b1;
+}
+
+.facebook {
+  color: #3b5998;
+}
+
+.linkedin {
+  color: #007bb6;
+}
+
+.pinterest {
+  color: #cb2027;
+}
+
+.dribbble {
+  color: #ea4c89;
+}
+
+.instagram {
+  color: #517fa4;
+}
+
+.twitter {
+  color: #00aced;
+}
+
+.soundcloud {
+  color: #ff3a00;
+}
+
+.wordpress {
+  color: #21759b;
+}
+
+.youtube {
+  color: #bb0000;
+}
+
+.github {
+  color: #171515;
+}
+
+.stack-overflow {
+  color: #828386;
+  position: relative;
+}
+
+.flickr {
+  color: #ff0084;
+}
+
+.reddit {
+  color: #ff4500;
+}
+
+.hacker-news {
+  color: #ff6600;
+}
+
+.stack-overflow::after {
+  position: absolute;
+  left: 0;
+  content: "\f16c";
+  color: #f68a1f;
+  overflow: hidden;
+  height: 100%;
+}
+
+.telegram {
+  color: #2291c3;
+}
+
+#languages .item,
+#skills .item,
+#interests .item {
+  width: 100%;
+  padding: 0 0.5em 0.5em 0;
+  border-bottom: none;
+}
+
+#skills .item {
+  display: inline-flex;
+  align-items: center;
+}
+
+#skills .item .keywords {
+  width: 80%;
+}
+
+/* Skill chart */
+
+.level {
+  margin-bottom: 0.5em;
+}
+
+.level em {
+  padding-left: 0.2em;
+}
+
+.level .bar {
+  border: 1px solid #ddd;
+  display: block;
+  width: 10em;
+  height: 5px;
+  position: relative;
+}
+
+.level .bar::after {
+  position: absolute;
+  content: " ";
+  top: 0;
+  left: 0;
+  background: black;
+  height: 5px;
+}
+
+.level.beginner .bar::after {
+  background: #eb5f51;
+  width: 2.5em;
+}
+
+.level.intermediate .bar::after {
+  background: #ffdf1f;
+  width: 5em;
+}
+
+.level.advanced .bar::after,
+.level.fluent .bar::after {
+  background: #5cb85c;
+  width: 7.5em;
+}
+
+.level.master .bar::after,
+.level.native.speaker .bar::after {
+  background: #59c596;
+  width: 10em;
+}
+
+#references .item {
+  padding-left: 0.5em;
+  border-left: 5px solid #ff6d1f;
+}
+
+.section > section > section {
+  margin-bottom: 1rem;
+}
+
+#header.clear {
+  text-align: center;
+}
+
+/******************
+*	HELPER CLASSES
+******************/
+
+.clear::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.display {
+  display: block;
+  opacity: 1 !important;
+}
+
+/****************
+*		TABLET
+****************/
+
+@media screen and (min-width: 602px) {
+  #resume {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .section header .date {
+    float: right;
+    font-weight: 600;
+    color: #000;
+  }
+}
+
+
+.section header .date {
+  float: right;
+  font-weight: 600;
+  color: #000;
+}
+
+/****************
+*		LAPTOP
+****************/
+
+@media screen and (min-width: 1025px) {
+  li {
+    margin-left: 1.5em;
+  }
+  #resume {
+    width: 820px;
+    margin: 2rem auto;
+  }
+  .section > section > header .space-left {
+    opacity: 1;
+    cursor: pointer;
+  }
+  .section > section:not(.main-summary) {
+    margin-left: 1.67rem;
+  }
+  .company::before,
+  .institution::before,
+  .organization::before,
+  .awarder::before {
+    content: "| ";
+  }
+  .header-left {
+    float: left;
+    width: 70%;
+    word-break: normal;
+  }
+  .section header .date {
+    padding: 0.2em;
+  }
+  .display {
+    display: none;
+  }
+  .display:not(.none) {
+    display: block;
+  }
+}
+
+@media print {
+  #profiles a:not(.hide-href-print)::after{
+    content: " (" attr(href) ") ";
+  }
+  #resume {
+    margin: 0.1em;
+    padding: 0.1em;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+    line-height: 1.25;
+  }
+  @page {
+    margin: 1cm 1.4cm;
+  }
+  .item-count {
+    display: none;
+  }
+  .company::before,
+  .institution::before,
+  .organization::before,
+  .awarder::before {
+    content: "at ";
+  }
+  .main-summary {
+    padding: 0;
+    background: transparent;
+  }
+  .section {
+    margin: 0.8rem 0;
+    padding: 0;
+  }
+  .section header {
+    padding-bottom: 0rem;
+  }
+  .section .location {
+    padding-bottom: 0.15rem;
+  }
+  .section > section > section:last-of-type {
+    margin: 0;
+  }
+  .stack-overflow::after {
+    content: "";
+  }
+  .fa.social {
+    color: #828386;
+  }
+  ul {
+    margin-top: 0.4em;
+  }
+  ul,
+  li {
+    padding: 0;
+  }
+  ul.keywords li,
+  ul.courses li {
+    margin: 0;
+    padding: 0;
+    font-size: 0.8rem;
+    background: transparent;
+  }
+  ul.keywords li::after,
+  ul.courses li::after {
+    padding: 0 0 0 0.1rem;
+    content: " |";
+  }
+  ul.keywords::before,
+  ul.courses::before {
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+  #skills .item {
+    width: calc(100% / 1);
+    padding: 0;
+  }
+  .highlights {
+    margin: 0 0 0 0;
+  }
+  ul.keywords::before {
+    content: "Skills acquired: ";
+  }
+  #skills .keywords::before {
+    content: none;
+  }
+  .section p {
+    margin: 0;
+    padding: 0;
+  }
+  ul.courses::before {
+    content: "Major courses: ";
+  }
+  ul.keywords li:last-of-type::after,
+  ul.courses li:last-of-type::after {
+    content: "";
+  }
+  .level em {
+    font-style: normal;
+    padding: 0.1em 0;
+  }
+  .level .bar {
+    display: none;
+  }
+  #profiles .item {
+    padding: 0;
+  }
+  .fa-map-marker-alt:before {
+    padding-left: 0.1em;
+  }
+}
+
+  </style>
+  
+  </head>
+  <body>
+    <div id="resume">
+      	<header id="header" class="clear">
+      		<div>
+      			<h1 class="name">Hamed Tavakoli Dastjerdi</h1>
+      			<h2 class="label">uOttawa CS Student, Hitachi Intern</h2>
+      		</div>
+      
+      		<span class="location">
+      			<span class="address">36 Robinson Ave.,</span>
+      			<span class="postalCode">K1N 0G4,</span>
+      			<span class="city">Ottawa,</span>
+      			<span class="region">Ontario</span>
+      			<span class="countryCode">CA</span>
+      		</span>
+      
+      
+      		<div id="contact">
+      			<div class="email">
+      				<span class="far fa-envelope"></span>
+      				<a class="hide-href-print" href="mailto:HamedTava@outlook.com">HamedTava@outlook.com</a>
+      			</div>
+      			<div class="phone">
+      				<span class="fas fa-mobile-alt"></span>
+      				<a class="hide-href-print" href="tel:(613) 294-6363">(613) 294-6363</a>
+      			</div>
+      
+      			<div class="item">
+      				<div class="username">
+      					<span class="fab fa-github github social"></span>
+      					<span class="url">
+      						<a target="_blank" href="https://Github.com/Qerope">Qerope</a>
+      					</span>
+      				</div>
+      			</div>
+      			<div class="item">
+      				<div class="username">
+      					<span class="fab fa-linkedin linkedin social"></span>
+      					<span class="url">
+      						<a target="_blank" href="https://linkedin.com/in/Qerope">/Qerope</a>
+      					</span>
+      				</div>
+      			</div>
+      		</div>
+      	</header>
+      
+      
+      <section class="section">
+      	<header>
+      		<h2 class='section-title'>Skills</h2>
+      	</header>
+      	<section id="skills">
+      		<div class="item">
+      			<h3 class="name">
+      				Programming
+      			</h3>
+      			 			<ul class="keywords">
+      				<li>Python</li>
+      				<li>MATLAB</li>
+      				<li>Java</li>
+      				<li>C/C++</li>
+      				<li>Swift</li>
+      				<li>PHP</li>
+      				<li>Typescript</li>
+      				<li>JavaScript</li>
+      				<li>SQL</li>
+      				<li>R</li>
+      			</ul>
+      		</div>
+      		<div class="item">
+      			<h3 class="name">
+      				Systems Design
+      			</h3>
+      			 			<ul class="keywords">
+      				<li>Simulation</li>
+      				<li>Analysis</li>
+      				<li>Throughput</li>
+      				<li>Capacity</li>
+      				<li>Latency</li>
+      				<li>Resource Allocation</li>
+      			</ul>
+      		</div>
+      		<div class="item">
+      			<h3 class="name">
+      				Frameworks &amp; Tools
+      			</h3>
+      			 			<ul class="keywords">
+      				<li>NumPy</li>
+      				<li>SimPy</li>
+      				<li>Pandas</li>
+      				<li>Git</li>
+      				<li>Docker</li>
+      				<li>JIRA</li>
+      				<li>MATLAB</li>
+      			</ul>
+      		</div>
+      		<div class="item">
+      			<h3 class="name">
+      				Languages
+      			</h3>
+      			 			<ul class="keywords">
+      				<li>English</li>
+      				<li>French</li>
+      				<li>Persian</li>
+      			</ul>
+      		</div>
+      	</section>
+      </section>
+      <section class="section">
+        <header>
+          <h2 class='section-title'>Work Experience <span class="item-count">(4)</span></h2>
+        </header>
+      
+        <section id="work">
+          <section class="work-item">
+      
+            <label for="work-item-0"></label>
+      
+            <header class="clear">
+              <div class="date">
+                <span class="startDate">2024-05-01</span>
+                <span class="endDate">- Present</span>
+              </div>
+              <div class="position">Site Deployment Intern</div>
+              <div class="company">Hitachi</div>
+            </header>
+      
+             <div class="item" id="work-item">
+              <div class="summary"><p><p>Reduced deployment time by 300% through the development of automated configuration scripts. Designed an automated predictive maintenance system, reducing operational downtime by 20%. Created comprehensive documentation and training materials for the deployment process.</p></p></div>
+            </div>
+          </section>
+          <section class="work-item">
+      
+            <label for="work-item-1"></label>
+      
+            <header class="clear">
+              <div class="date">
+                <span class="startDate">2024-01-01</span>
+                <span class="endDate">- 2024-01-31</span>
+              </div>
+              <div class="position">Game Developer Intern</div>
+              <div class="company">Broken Teapot Studios Inc.</div>
+            </header>
+      
+             <div class="item" id="work-item">
+              <div class="summary"><p><p>Implemented dynamic AI routines for NPCs, improving gameplay fluidity and player engagement. Optimized game shader performance by 115% by refactoring code and streamlining resource management. Assisted in the design and implementation of a unique puzzle-solving mechanic that increased user retention by 25%.</p></p></div>
+            </div>
+          </section>
+          <section class="work-item">
+      
+            <label for="work-item-2"></label>
+      
+            <header class="clear">
+              <div class="date">
+                <span class="startDate">2022-05-01</span>
+                <span class="endDate">- 2022-08-31</span>
+              </div>
+              <div class="position">Full Stack Web Developer</div>
+              <div class="company">RTXComputers Electronics Provider</div>
+            </header>
+      
+             <div class="item" id="work-item">
+              <div class="summary"><p><p>Designed and developed several web applications and tools, including a customer support chatbot and a product recommendation system. Collaborated with the marketing team to optimize the website’s user experience and improve conversion rates. Gained experience in web development technologies such as React, Node.js, and MongoDB.</p></p></div>
+            </div>
+          </section>
+          <section class="work-item">
+      
+            <label for="work-item-3"></label>
+      
+            <header class="clear">
+              <div class="date">
+                <span class="startDate">2020-11-01</span>
+                <span class="endDate">- 2022-11-30</span>
+              </div>
+              <div class="position">Game Developer</div>
+              <div class="company">PanQ Game Studio</div>
+            </header>
+      
+             <div class="item" id="work-item">
+              <div class="summary"><p><p>Founded PanQ, an indie game studio that specialized in developing unique and innovative games for mobile. Designed and developed several games, including &quot;Focus!&quot; and &quot;Spycer&quot;, which received positive reviews and high user ratings on local app stores, generating revenue through in-app advertisement.</p></p></div>
+            </div>
+          </section>
+        </section>
+      </section>
+      <section class="section">
+        <header>
+          <h2 class='section-title'>Volunteer</h2>
+        </header>
+        <section id="volunteer">
+          <section class="volunteer-item">
+      
+      
+            <header class="clear">
+               <div class="date">
+                <span class="startDate">
+                  2023-07-01
+                </span>
+                <span class="endDate">
+                  - Present
+                </span>
+              </div>
+              <div class="header-left">
+                <div class="position">
+                  Development Lead
+                </div>
+                <div class="organization">
+                  uOttaHack
+                </div>
+              </div>
+             
+            </header>
+            <div class="item">
+            </div>
+          </section>
+          <section class="volunteer-item">
+      
+      
+            <header class="clear">
+               <div class="date">
+                <span class="startDate">
+                  2023-09-01
+                </span>
+                <span class="endDate">
+                  - 2024-04-30
+                </span>
+              </div>
+              <div class="header-left">
+                <div class="position">
+                  Board of Directors Member
+                </div>
+                <div class="organization">
+                  Engineering Students&#x27; Society, University of Ottawa
+                </div>
+              </div>
+             
+            </header>
+            <div class="item">
+            </div>
+          </section>
+          <section class="volunteer-item">
+      
+      
+            <header class="clear">
+               <div class="date">
+                <span class="startDate">
+                  2023-11-01
+                </span>
+                <span class="endDate">
+                  - 2024-03-31
+                </span>
+              </div>
+              <div class="header-left">
+                <div class="position">
+                  CALE 2024 Conference Organizer
+                </div>
+                <div class="organization">
+                  Engineering Student Societies&#x27; Council of Ontario
+                </div>
+              </div>
+             
+            </header>
+            <div class="item">
+            </div>
+          </section>
+        </section>
+      </section>
+      <section class="section">
+        <header>
+          <h2 class='section-title'>Education <span class="item-count">(1)</span></h2>
+        </header>
+      
+        <section id="education">
+          <section class="education-item">
+              <label for="education-item-0"></label>
+            <header class="clear">
+              <div class="date">
+                <span class="startDate">
+                2022-09-01
+                </span>
+                <span class="endDate">
+                - 2026-04-01
+                </span>
+              </div>
+              <div class="header-left">
+                <div class="studyType">
+                  Bachelor of Science
+                </div>
+                <div class="area">
+                  Computer Science, Minor in Physics
+                </div>
+                <div class="institution">
+                  University of Ottawa
+                </div>
+              </div>
+            </header>
+      
+      
+      
+            <div class="item">
+                <div class="summary"><p><p>Actively engaged in cutting-edge research across various fields, including physics, engineering, and health sciences. Multiple competitions and merit scholarships over $40,000/annum. Dean's honour list.</p></p></div>
+            </div>
+          </section>
+        </section>
+      </section>
+        <section class="section">
+          <header>
+            <h2 class="section-title">Awards</h2>
+          </header>
+          <section id="awards">
+              <section class="award-item">
+      
+                <header class="clear">
+                    <div class="date">
+                      2024-02-01
+                    </div>
+                  <div class="header-left">
+                      <div class="title">
+                        Scholarship for Merit through Innovation in Student Publications
+                      </div>
+                      <div class="awarder">
+                        UOSU
+                      </div>
+                  </div>
+                </header>
+      
+                <div class="item">
+                </div>
+              </section>
+              <section class="award-item">
+      
+                <header class="clear">
+                    <div class="date">
+                      2023-07-01
+                    </div>
+                  <div class="header-left">
+                      <div class="title">
+                        5G Connectivity for Cross Border Challenge
+                      </div>
+                      <div class="awarder">
+                        Telus
+                      </div>
+                  </div>
+                </header>
+      
+                <div class="item">
+                </div>
+              </section>
+              <section class="award-item">
+      
+                <header class="clear">
+                    <div class="date">
+                      2023-02-01
+                    </div>
+                  <div class="header-left">
+                      <div class="title">
+                        Solutions Lab &amp; Idea’s Lab Award
+                      </div>
+                      <div class="awarder">
+                        University of Ottawa - eHub - MDA
+                      </div>
+                  </div>
+                </header>
+      
+                <div class="item">
+                </div>
+              </section>
+              <section class="award-item">
+      
+                <header class="clear">
+                    <div class="date">
+                      2017-06-01
+                    </div>
+                  <div class="header-left">
+                      <div class="title">
+                        Youngest Startup of Iran
+                      </div>
+                      <div class="awarder">
+                        Tabnak
+                      </div>
+                  </div>
+                </header>
+      
+                <div class="item">
+                </div>
+              </section>
+          </section>
+        </section>
+        <section class="section">
+          <header>
+            <h2 class="section-title">Certificates</h2>
+          </header>
+          <section id="certificates">
+              <section class="certificate-item">
+                <header class="clear">
+                  <div class="header-left">
+                      <div class="name">
+                        Introduction to Statistics
+                      </div>
+                      <div class="issuer">
+                        Stanford University
+                      </div>
+                  </div>
+                </header>
+      
+                <div class="item">
+                </div>
+              </section>
+              <section class="certificate-item">
+                <header class="clear">
+                  <div class="header-left">
+                      <div class="name">
+                        Network Security, Python Programming, 5G/3GPP
+                      </div>
+                      <div class="issuer">
+                        Huawei Talent
+                      </div>
+                  </div>
+                </header>
+      
+                <div class="item">
+                </div>
+              </section>
+              <section class="certificate-item">
+                <header class="clear">
+                  <div class="header-left">
+                      <div class="name">
+                        Java Programming, Problem Solving
+                      </div>
+                      <div class="issuer">
+                        HackerRank
+                      </div>
+                  </div>
+                </header>
+      
+                <div class="item">
+                </div>
+              </section>
+              <section class="certificate-item">
+                <header class="clear">
+                  <div class="header-left">
+                      <div class="name">
+                        Art Directing Games with Vision and Purpose
+                      </div>
+                      <div class="issuer">
+                        Iran Computer and Video Games Foundation
+                      </div>
+                  </div>
+                </header>
+      
+                <div class="item">
+                </div>
+              </section>
+          </section>
+        </section>
+      <section class="section">
+        <header>
+          <h2 class='section-title'>Publications</h2>
+        </header>
+        <section id="publications">
+          <section class="publication-item">
+      
+            <header class="clear">
+              <span class="date">
+                2023-02-01
+              </span>
+              <div class="header-left">
+                <span class="name">
+                  Impact Of Telemedicine Intervention On Patient Satisfaction For Hypertensive Patients
+                </span>
+              </div>
+             
+            </header>
+      
+            <div class="item">
+            </div>
+          </section>
+          <section class="publication-item">
+      
+            <header class="clear">
+              <span class="date">
+                2017-05-01
+              </span>
+              <div class="header-left">
+                <span class="name">
+                  Investigating Human Cognitive Learning Process In An Artistic Context
+                </span>
+              </div>
+             
+            </header>
+      
+            <div class="item">
+            </div>
+          </section>
+        </section>
+      </section>
+    </div>
+  </body>
+</html>

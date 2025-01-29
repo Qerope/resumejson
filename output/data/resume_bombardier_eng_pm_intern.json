@@ -1,0 +1,256 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Hamed Tavakoli Dastjerdi",
+    "label": "uOttawa CS Student, Hitachi Intern",
+    "email": "HamedTava@outlook.com",
+    "phone": "(613) 294-6363",
+    "location": {
+      "address": "36 Robinson Ave.",
+      "postalCode": "K1N 0G4",
+      "city": "Ottawa",
+      "countryCode": "CA",
+      "region": "Ontario"
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "Qerope",
+        "url": "https://Github.com/Qerope"
+      },
+      {
+        "network": "Linkedin",
+        "username": "/Qerope",
+        "url": "https://linkedin.com/in/Qerope"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Hitachi",
+      "position": "Site Deployment Intern",
+      "startDate": "2024-05-01",
+      "endDate": "Present",
+      "summary": "Led initiatives to optimize deployment strategies and reduce time-to-market by 300% through development of automated configuration scripts. \n Collaborated with cross-functional teams to design predictive maintenance systems, reducing operational downtime by 20%. \n Developed and maintained comprehensive project documentation and training materials, fostering effective team communication and knowledge transfer."
+    },
+    {
+      "name": "Broken Teapot Studios Inc.",
+      "position": "Game Developer Intern",
+      "startDate": "2024-01-01",
+      "endDate": "2024-01-31",
+      "summary": "Developed dynamic AI routines to improve gameplay experience, ensuring smooth planning and execution of game features. \n Optimized game code to improve performance, integrating project management best practices for milestone tracking and bug-fixing. \n Contributed to the design and implementation of innovative features, leading to a 25% increase in user retention."
+    },
+    {
+      "name": "RTXComputers Electronics Provider",
+      "position": "Full Stack Web Developer",
+      "startDate": "2022-05-01",
+      "endDate": "2022-08-31",
+      "summary": "Collaborated on web development projects with an emphasis on responsive design and user experience, applying Agile methodologies for project tracking and development. \n Successfully led the implementation of a customer support chatbot, improving team collaboration and user interaction."
+    },
+    {
+      "name": "PanQ Game Studio",
+      "position": "Game Developer",
+      "startDate": "2020-11-01",
+      "endDate": "2022-11-30",
+      "summary": "Founded and led PanQ, an indie game studio focused on innovative game development. Applied leadership and project management techniques to design and release several mobile games. \n Managed the development pipeline and coordinated with cross-disciplinary teams to ensure projects were delivered on schedule."
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "uOttaHack",
+      "position": "Development Lead",
+      "startDate": "2023-07-01",
+      "endDate": "Present",
+      "summary": "Led a team of developers in planning, execution, and monitoring of hackathon projects, ensuring deadlines were met and deliverables exceeded expectations. \n Contributed to team leadership, fostering communication and innovation through regular feedback and progress check-ins."
+    },
+    {
+      "organization": "Engineering Students' Society, University of Ottawa",
+      "position": "Board of Directors Member",
+      "startDate": "2023-09-01",
+      "endDate": "2024-04-30",
+      "summary": "Collaborated with leadership to plan and execute student events and initiatives, ensuring all projects were effectively managed. \n Played an integral role in communicating objectives and progress, while ensuring that resources were allocated efficiently."
+    },
+    {
+      "organization": "Engineering Student Societies' Council of Ontario",
+      "position": "CALE 2024 Conference Organizer",
+      "startDate": "2023-11-01",
+      "endDate": "2024-03-31",
+      "summary": "Organized and managed the planning of an engineering conference, overseeing the execution of logistical and operational tasks to ensure a successful event."
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Ottawa",
+      "url": "https://uottawa.ca",
+      "area": "Computer Science, Minor in Physics",
+      "studyType": "Bachelor of Science",
+      "startDate": "2022-09-01",
+      "endDate": "2026-04-01",
+      "summary": "Actively engaged in project management coursework and research across multiple fields including physics, engineering, and computer science. Dean's honour list recipient with a focus on innovation and leadership. \n Completed multiple teamwork-driven projects with demonstrated leadership and risk management skills."
+    }
+  ],
+  "awards": [
+    {
+      "title": "Scholarship for Merit through Innovation in Student Publications",
+      "date": "2024-02-01",
+      "awarder": "UOSU"
+    },
+    {
+      "title": "5G Connectivity for Cross Border Challenge",
+      "date": "2023-07-01",
+      "awarder": "Telus"
+    },
+    {
+      "title": "Solutions Lab & Idea\u2019s Lab Award",
+      "date": "2023-02-01",
+      "awarder": "University of Ottawa - eHub - MDA"
+    },
+    {
+      "title": "Youngest Startup of Iran",
+      "date": "2017-06-01",
+      "awarder": "Tabnak"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Introduction to Statistics",
+      "issuer": "Stanford University"
+    },
+    {
+      "name": "Network Security, Python Programming, 5G/3GPP",
+      "issuer": "Huawei Talent"
+    },
+    {
+      "name": "Java Programming, Problem Solving",
+      "issuer": "HackerRank"
+    },
+    {
+      "name": "Art Directing Games with Vision and Purpose",
+      "issuer": "Iran Computer and Video Games Foundation"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Impact Of Telemedicine Intervention On Patient Satisfaction For Hypertensive Patients",
+      "publisher": "URNCST Journal",
+      "releaseDate": "2023-02-01",
+      "summary": "",
+      "url": "https://doi.org/10.26685/urncst.505"
+    },
+    {
+      "name": "Investigating Human Cognitive Learning Process In An Artistic Context",
+      "releaseDate": "2017-05-01",
+      "summary": ""
+    }
+  ],
+  "skills": [
+    {
+      "name": "Project Management",
+      "keywords": [
+        "Planning",
+        "Execution",
+        "Risk Management",
+        "Change Management",
+        "Agile Methodologies",
+        "Prioritization",
+        "Milestones"
+      ]
+    },
+    {
+      "name": "Engineering",
+      "keywords": [
+        "Aviation",
+        "Systems Engineering",
+        "Innovation",
+        "Problem Solving",
+        "Engineering Design"
+      ]
+    },
+    {
+      "name": "Programming",
+      "keywords": [
+        "Python",
+        "Java",
+        "C/C++",
+        "C#",
+        "Swift",
+        "PHP",
+        "Typescript",
+        "JavaScript",
+        "HTML/CSS",
+        "SQL",
+        "R",
+        "Ruby",
+        "Lua"
+      ]
+    },
+    {
+      "name": "Frameworks",
+      "keywords": [
+        "React",
+        "Node.js",
+        "TensorFlow",
+        "Pandas",
+        "NumPy",
+        "SimPy",
+        "Angular",
+        "Ruby on Rails",
+        "Next.js",
+        "Bootstrap",
+        "Apache Spark"
+      ]
+    },
+    {
+      "name": "Tools",
+      "keywords": [
+        "Git",
+        "Docker",
+        "AWS",
+        "GCP",
+        "Azure",
+        "MATLAB",
+        "Shell Scripting",
+        "Postman",
+        "Jenkins",
+        "CI/CD",
+        "JIRA",
+        "Vagrant"
+      ]
+    },
+    {
+      "name": "Technologies",
+      "keywords": [
+        "Edge Computing",
+        "ML/DL/AI",
+        "Big Data",
+        "Modeling",
+        "Smart Contracts",
+        "DApps/DeFi",
+        "Web3/IPFS",
+        "Tokenomics"
+      ]
+    },
+    {
+      "name": "Cybersecurity",
+      "keywords": [
+        "Network Security",
+        "Cryptography",
+        "IDS/IPS",
+        "CEH 13",
+        "SIEM",
+        "DDoS Protection",
+        "SOC",
+        "SOC 2",
+        "ISO 27001"
+      ]
+    },
+    {
+      "name": "Languages",
+      "keywords": [
+        "English",
+        "French",
+        "Persian"
+      ]
+    }
+  ]
+}

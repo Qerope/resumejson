@@ -1,0 +1,197 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Hamed Tavakoli Dastjerdi",
+    "label": "Software Developer Intern",
+    "email": "HamedTava@outlook.com",
+    "phone": "(613) 294-6363",
+    "location": {
+      "address": "36 Robinson Ave.",
+      "postalCode": "K1N 0G4",
+      "city": "Ottawa",
+      "countryCode": "CA",
+      "region": "Ontario"
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "Qerope",
+        "url": "https://Github.com/Qerope"
+      },
+      {
+        "network": "Linkedin",
+        "username": "/Qerope",
+        "url": "https://linkedin.com/in/Qerope"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Hitachi",
+      "position": "Site Deployment Intern",
+      "startDate": "2024-05-01",
+      "endDate": "Present",
+      "summary": "Reduced deployment time by 300% through the development of automated configuration scripts. \n Designed automated predictive maintenance systems, reducing operational downtime by 20%. \n Created comprehensive documentation and training materials for the deployment process."
+    },
+    {
+      "name": "Broken Teapot Studios Inc.",
+      "position": "Game Developer Intern",
+      "startDate": "2024-01-01",
+      "endDate": "2024-01-31",
+      "summary": "Implemented dynamic AI routines for NPCs, improving gameplay fluidity and player engagement. \n Optimized game shader performance by 115% by refactoring code and streamlining resource management. \n Assisted in the design and implementation of a unique puzzle-solving mechanic that increased user retention by 25%."
+    },
+    {
+      "name": "RTXComputers Electronics Provider",
+      "position": "Full Stack Web Developer",
+      "startDate": "2022-05-01",
+      "endDate": "2022-08-31",
+      "summary": "Designed and developed web applications and tools, including a customer support chatbot and a product recommendation system. Collaborated with the marketing team to optimize the website\u2019s user experience and improve conversion rates. Gained experience in web development technologies such as React, Node.js, and MongoDB."
+    },
+    {
+      "name": "PanQ Game Studio",
+      "position": "Game Developer",
+      "startDate": "2020-11-01",
+      "endDate": "2022-11-30",
+      "summary": "Founded PanQ, an indie game studio that specialized in developing unique and innovative games for mobile. Designed and developed several games, including \"Focus!\" and \"Spycer\", which received positive reviews and high user ratings on local app stores, generating revenue through in-app advertisement."
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "uOttaHack",
+      "position": "Development Lead",
+      "startDate": "2023-07-01",
+      "endDate": "Present"
+    },
+    {
+      "organization": "Engineering Students' Society, University of Ottawa",
+      "position": "Board of Directors Member",
+      "startDate": "2023-09-01",
+      "endDate": "2024-04-30"
+    },
+    {
+      "organization": "Engineering Student Societies' Council of Ontario",
+      "position": "CALE 2024 Conference Organizer",
+      "startDate": "2023-11-01",
+      "endDate": "2024-03-31"
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Ottawa",
+      "url": "https://uottawa.ca",
+      "area": "Computer Science, Minor in Physics",
+      "studyType": "Bachelor of Science",
+      "startDate": "2022-09-01",
+      "endDate": "2026-04-01",
+      "summary": "Actively engaged in cutting-edge research across various fields, including physics, engineering, and health sciences. Multiple competitions and merit scholarships over $40,000/annum. Dean's honour list."
+    }
+  ],
+  "awards": [
+    {
+      "title": "Scholarship for Merit through Innovation in Student Publications",
+      "date": "2024-02-01",
+      "awarder": "UOSU"
+    },
+    {
+      "title": "5G Connectivity for Cross Border Challenge",
+      "date": "2023-07-01",
+      "awarder": "Telus"
+    },
+    {
+      "title": "Solutions Lab & Idea\u2019s Lab Award",
+      "date": "2023-02-01",
+      "awarder": "University of Ottawa - eHub - MDA"
+    },
+    {
+      "title": "Youngest Startup of Iran",
+      "date": "2017-06-01",
+      "awarder": "Tabnak"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Introduction to Statistics",
+      "issuer": "Stanford University"
+    },
+    {
+      "name": "Network Security, Python Programming, 5G/3GPP",
+      "issuer": "Huawei Talent"
+    },
+    {
+      "name": "Java Programming, Problem Solving",
+      "issuer": "HackerRank"
+    },
+    {
+      "name": "Art Directing Games with Vision and Purpose",
+      "issuer": "Iran Computer and Video Games Foundation"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Impact Of Telemedicine Intervention On Patient Satisfaction For Hypertensive Patients",
+      "publisher": "URNCST Journal",
+      "releaseDate": "2023-02-01",
+      "summary": "",
+      "url": "https://doi.org/10.26685/urncst.505"
+    },
+    {
+      "name": "Investigating Human Cognitive Learning Process In An Artistic Context",
+      "releaseDate": "2017-05-01",
+      "summary": ""
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming",
+      "keywords": [
+        "Python",
+        "C#",
+        "VB.NET",
+        "SQL",
+        "XML",
+        "Java",
+        "C/C++",
+        "Typescript",
+        "JavaScript",
+        "HTML/CSS"
+      ]
+    },
+    {
+      "name": "Tools",
+      "keywords": [
+        "Visual Studio",
+        "Git",
+        "SVN",
+        "Docker",
+        "MS Build",
+        "Postman",
+        "CI/CD"
+      ]
+    },
+    {
+      "name": "Technologies",
+      "keywords": [
+        "Process Automation",
+        "Multi-threading",
+        "Software Testing",
+        "Instrumentation",
+        "Optical Systems"
+      ]
+    },
+    {
+      "name": "Frameworks",
+      "keywords": [
+        "React",
+        "Node.js"
+      ]
+    },
+    {
+      "name": "Languages",
+      "keywords": [
+        "English",
+        "French",
+        "Persian"
+      ]
+    }
+  ]
+}

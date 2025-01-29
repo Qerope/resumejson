@@ -14,7 +14,7 @@ logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %
 cohere_api_key = "39TAyPgeBqHh9rFoQLDtZL26dluSbjIqBBtjHnEa"  # Replace with your actual API key securely in production
 cohere_client = ClientV2(api_key=cohere_api_key)
 
-chat_prompt = "\nTailor this CV to apply for the following job position outline. USE THE SAME EXACT FORMAT AND TRY TO KEEP THE SIZE RELEATIVLY THE SAME. Change, and improve wherever needed based on the first reference point and job description. Do not add anything not referred before. Try to only keep the relevant. Make sure skills and everything matches with whatever the job description is demanding. You are only allowed to change/add/modify skills section. Other sections may only be modified using the reference (except in description which you may add relevant points to the job posting)\n"
+chat_prompt = "\nTailor this CV to apply for the following job position outline. USE THE SAME EXACT FORMAT AND TRY TO KEEP THE SIZE RELEATIVELY THE SAME. Change, and improve wherever needed based on the first reference point and job description. Do not add anything not referred before. Try to only keep the relevant. Make sure skills and everything matches with whatever the job description is demanding. You are only allowed to change/add/modify skills section. Other sections may only be modified using the reference (except in description which you may add relevant points to the job posting)\n"
 
 # Async function to generate PDF
 async def generate_pdf_with_chromium(resume_html, output_pdf_path):
@@ -96,7 +96,7 @@ async def generate_resume(cv_data_raw, job_data):
     
     try:
         # Load the CV data (assuming it's a JSON file)
-        logging.debug("Loading CV data from data...")
+        logging.debug("Loading CV data from selected file...")
         tailored_resume = json.loads(cv_data_raw)
         
         os.makedirs("./output/data", exist_ok=True)
@@ -148,37 +148,58 @@ async def display_html(file_path):
 # Gradio interface
 def main_interface():
     with gr.Blocks() as demo:
+        # Get list of JSON files in the References folder
+        json_files = [f for f in os.listdir("./references") if f.endswith(".json")]
+        
         with gr.Row():
             with gr.Column():
+                cv_file_dropdown = gr.Dropdown(label="Step 1: Select CV File", choices=json_files, type="value")
                 job_description = gr.Textbox(label="Job Description", lines=10)
             with gr.Column():
                 job_data_display = gr.JSON(label="Extracted Job Data")
-                summarize_btn = gr.Button("Summarize Job Description")
+                summarize_btn = gr.Button("Step 2: Summarize Job Description")
             with gr.Column():
-                chat_prompt_output = gr.Textbox(label="Chat Prompt", lines=10)
+                chat_prompt_output = gr.Textbox(label="Step 3: Chat Prompt", lines=10)
             
         with gr.Row():
             with gr.Column():
                 gen_cv_data = gr.Textbox(label="Generated Resume JSON", lines=10)
-                generate_resume_btn = gr.Button("Generate Resume")
+                generate_resume_btn = gr.Button("Step 4: Generate Resume")
             with gr.Column():
                 html_display_link = gr.HTML(label="Generated Resume")
                 html_display = gr.HTML(label="Generated Resume")
         
         # Event handlers
-        def on_summarize(job_desc):
+        def on_summarize(cv_file_dropdown, job_desc):
             logging.info(f"Job description received for summarization: {job_desc[:20]}...")  # Log first 20 chars for brevity
             jd = summarize_job(job_desc)
-            with open('resume.json', 'r') as file:
+            
+            # Get the selected CV file from the dropdown
+            selected_cv_file = cv_file_dropdown
+            
+            # Build the correct path to the selected CV file
+            cv_file_path = os.path.join("./references", selected_cv_file)
+            
+            # Open and read the selected CV file
+            with open(cv_file_path, 'r') as file:
                 resume_content = file.read()
-                return jd, (resume_content + chat_prompt + json.dumps(jd))  # Combine job data and prompt
+                
+            # Return job description data and the combined content
+            return jd, (resume_content + chat_prompt + json.dumps(jd))  # Combine job data and prompt
 
-        async def on_generate_resume(resume_data, job_data):
-            logging.info(f"Generating resume with data")
+
+        async def on_generate_resume(selected_cv_file, job_data):
+            logging.info(f"Generating resume with data from selected CV file: {selected_cv_file}")
+            
+            # Load the selected CV file from the References folder
+            cv_file_path = os.path.join("./references", selected_cv_file)
+            with open(cv_file_path, 'r') as file:
+                resume_data = file.read()
+                
             return await generate_resume(resume_data, job_data)
 
-        summarize_btn.click(on_summarize, inputs=[job_description], outputs=[job_data_display, chat_prompt_output])
-        generate_resume_btn.click(on_generate_resume, inputs=[gen_cv_data, job_data_display], outputs=[html_display, html_display_link])
+        summarize_btn.click(on_summarize, inputs=[cv_file_dropdown, job_description], outputs=[job_data_display, chat_prompt_output])
+        generate_resume_btn.click(on_generate_resume, inputs=[cv_file_dropdown, job_data_display], outputs=[html_display, html_display_link])
 
     return demo
 

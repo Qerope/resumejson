@@ -1,0 +1,172 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Hamed Tavakoli Dastjerdi",
+    "email": "HamedTava@outlook.com",
+    "phone": "(613) 294-6363",
+    "location": {
+      "address": "36 Robinson Ave.",
+      "postalCode": "K1N 0G4",
+      "city": "Ottawa",
+      "countryCode": "CA",
+      "region": "Ontario"
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "Qerope",
+        "url": "https://Github.com/Qerope"
+      },
+      {
+        "network": "Linkedin",
+        "username": "/Qerope",
+        "url": "https://linkedin.com/in/Qerope"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Hitachi",
+      "position": "Site Deployment Intern",
+      "startDate": "2024-05-01",
+      "endDate": "Present",
+      "summary": "Streamlined deployment processes by creating automated configuration scripts, improving efficiency by 300%. \n Developed predictive maintenance systems to enhance operational reliability, reducing downtime by 20%. \n Created comprehensive documentation and training materials to support process improvements."
+    },
+    {
+      "name": "Broken Teapot Studios Inc.",
+      "position": "Game Developer Intern",
+      "startDate": "2024-01-01",
+      "endDate": "2024-01-31",
+      "summary": "Collaborated with cross-functional teams to optimize processes for game development, improving resource utilization by 115%. \n Contributed to project tracking and reporting through detailed performance analysis."
+    },
+    {
+      "name": "RTXComputers Electronics Provider",
+      "position": "Full Stack Web Developer",
+      "startDate": "2022-05-01",
+      "endDate": "2022-08-31",
+      "summary": "Managed multiple web development projects, improving workflows through efficient project coordination. \n Gained experience in process documentation and optimization while enhancing team collaboration."
+    },
+    {
+      "name": "PanQ Game Studio",
+      "position": "Game Developer",
+      "startDate": "2020-11-01",
+      "endDate": "2022-11-30",
+      "summary": "Founded an indie studio, leading all stages of project design and process optimization. \n Implemented performance-trending analyses to ensure quality assurance and continuous improvement."
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "uOttaHack",
+      "position": "Development Lead",
+      "startDate": "2023-07-01",
+      "endDate": "Present",
+      "summary": "Led process optimization initiatives in software development and team coordination."
+    },
+    {
+      "organization": "Engineering Students' Society, University of Ottawa",
+      "position": "Board of Directors Member",
+      "startDate": "2023-09-01",
+      "endDate": "2024-04-30",
+      "summary": "Contributed to organizational planning and strategic process design."
+    },
+    {
+      "organization": "Engineering Student Societies' Council of Ontario",
+      "position": "CALE 2024 Conference Organizer",
+      "startDate": "2023-11-01",
+      "endDate": "2024-03-31",
+      "summary": "Organized and streamlined conference processes, ensuring successful execution and reporting."
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Ottawa",
+      "url": "https://uottawa.ca",
+      "area": "Computer Science, Minor in Physics",
+      "studyType": "Bachelor of Science",
+      "startDate": "2022-09-01",
+      "endDate": "2026-04-01",
+      "summary": "Engaged in process improvement and optimization projects as part of academic and extracurricular activities. Dean's honour list with merit scholarships exceeding $40,000/annum."
+    }
+  ],
+  "awards": [
+    {
+      "title": "Scholarship for Merit through Innovation in Student Publications",
+      "date": "2024-02-01",
+      "awarder": "UOSU"
+    },
+    {
+      "title": "5G Connectivity for Cross Border Challenge",
+      "date": "2023-07-01",
+      "awarder": "Telus"
+    },
+    {
+      "title": "Solutions Lab & Idea\u2019s Lab Award",
+      "date": "2023-02-01",
+      "awarder": "University of Ottawa - eHub - MDA"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Lean Six Sigma Yellow Belt",
+      "issuer": "ASQ"
+    },
+    {
+      "name": "Project Management Essentials",
+      "issuer": "University of Ottawa"
+    },
+    {
+      "name": "Introduction to Statistics",
+      "issuer": "Stanford University"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Process Improvement",
+      "keywords": [
+        "Lean Six Sigma",
+        "Root Cause Analysis",
+        "Performance Trending",
+        "Process Documentation",
+        "Process Optimization"
+      ]
+    },
+    {
+      "name": "Project Coordination",
+      "keywords": [
+        "Project Tracking",
+        "Reporting",
+        "Data Gathering",
+        "Task Prioritization",
+        "Team Collaboration"
+      ]
+    },
+    {
+      "name": "Technical Skills",
+      "keywords": [
+        "Python",
+        "SQL",
+        "MATLAB",
+        "Data Analysis",
+        "SimPy"
+      ]
+    },
+    {
+      "name": "Soft Skills",
+      "keywords": [
+        "Communication",
+        "Organizational Skills",
+        "Planning",
+        "Teamwork",
+        "Problem Solving"
+      ]
+    },
+    {
+      "name": "Languages",
+      "keywords": [
+        "English",
+        "French",
+        "Persian"
+      ]
+    }
+  ]
+}

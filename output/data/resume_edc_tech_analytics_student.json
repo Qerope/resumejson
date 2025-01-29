@@ -1,0 +1,187 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Hamed Tavakoli Dastjerdi",
+    "label": "Technology & Analytics Enthusiast, Bilingual CS Student",
+    "email": "HamedTava@outlook.com",
+    "phone": "(613) 294-6363",
+    "location": {
+      "address": "36 Robinson Ave.",
+      "postalCode": "K1N 0G4",
+      "city": "Ottawa",
+      "countryCode": "CA",
+      "region": "Ontario"
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "Qerope",
+        "url": "https://Github.com/Qerope"
+      },
+      {
+        "network": "Linkedin",
+        "username": "/Qerope",
+        "url": "https://linkedin.com/in/Qerope"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Hitachi",
+      "position": "Site Deployment Intern",
+      "startDate": "2024-05-01",
+      "endDate": "Present",
+      "summary": "Reduced deployment time by 300% through the development of automated configuration scripts. \n Designed an automated predictive maintenance system, reducing operational downtime by 20%. \n Created comprehensive documentation and training materials for deployment processes."
+    },
+    {
+      "name": "Broken Teapot Studios Inc.",
+      "position": "Game Developer Intern",
+      "startDate": "2024-01-01",
+      "endDate": "2024-01-31",
+      "summary": "Implemented dynamic AI routines for NPCs, enhancing decision-making and player engagement. \n Optimized game shader performance by 115% through code refactoring and resource management. \n Assisted in designing a puzzle-solving mechanic that improved user retention by 25%."
+    },
+    {
+      "name": "RTXComputers Electronics Provider",
+      "position": "Full Stack Web Developer",
+      "startDate": "2022-05-01",
+      "endDate": "2022-08-31",
+      "summary": "Developed web tools, including a product recommendation system. \n Collaborated with teams to enhance user experiences and conversion rates. \n Worked with React, Node.js, and MongoDB technologies."
+    },
+    {
+      "name": "PanQ Game Studio",
+      "position": "Game Developer",
+      "startDate": "2020-11-01",
+      "endDate": "2022-11-30",
+      "summary": "Founded PanQ, specializing in mobile game development. Designed and developed several successful games, including \u201dFocus!\u201d and \u201dSpycer,\u201d achieving positive user reviews and high engagement rates."
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "uOttaHack",
+      "position": "Development Lead",
+      "startDate": "2023-07-01",
+      "endDate": "Present",
+      "summary": "Led technical aspects of Canada\u2019s largest university hackathon, ensuring smooth execution and participant engagement."
+    },
+    {
+      "organization": "Engineering Students' Society, University of Ottawa",
+      "position": "Board of Directors Member",
+      "startDate": "2023-09-01",
+      "endDate": "2024-04-30",
+      "summary": "Contributed to decision-making processes to enhance student opportunities and governance."
+    },
+    {
+      "organization": "Engineering Student Societies' Council of Ontario",
+      "position": "CALE 2024 Conference Organizer",
+      "startDate": "2023-11-01",
+      "endDate": "2024-03-31",
+      "summary": "Organized logistics for a provincial engineering conference attended by industry leaders and students."
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Ottawa",
+      "url": "https://uottawa.ca",
+      "area": "Computer Science, Minor in Physics",
+      "studyType": "Bachelor of Science",
+      "startDate": "2022-09-01",
+      "endDate": "2026-04-01",
+      "summary": "Actively engaged in data science and analytics projects, alongside interdisciplinary research. Recipient of merit scholarships exceeding $40,000 annually. Dean's Honour List."
+    }
+  ],
+  "awards": [
+    {
+      "title": "Scholarship for Merit through Innovation in Student Publications",
+      "date": "2024-02-01",
+      "awarder": "UOSU"
+    },
+    {
+      "title": "5G Connectivity for Cross Border Challenge",
+      "date": "2023-07-01",
+      "awarder": "Telus"
+    },
+    {
+      "title": "Solutions Lab & Idea\u2019s Lab Award",
+      "date": "2023-02-01",
+      "awarder": "University of Ottawa - eHub - MDA"
+    },
+    {
+      "title": "Youngest Startup of Iran",
+      "date": "2017-06-01",
+      "awarder": "Tabnak"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Introduction to Statistics",
+      "issuer": "Stanford University"
+    },
+    {
+      "name": "Network Security, Python Programming, 5G/3GPP",
+      "issuer": "Huawei Talent"
+    },
+    {
+      "name": "Java Programming, Problem Solving",
+      "issuer": "HackerRank"
+    },
+    {
+      "name": "Art Directing Games with Vision and Purpose",
+      "issuer": "Iran Computer and Video Games Foundation"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Impact Of Telemedicine Intervention On Patient Satisfaction For Hypertensive Patients",
+      "publisher": "URNCST Journal",
+      "releaseDate": "2023-02-01",
+      "url": "https://doi.org/10.26685/urncst.505"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming",
+      "keywords": [
+        "Python",
+        "Java",
+        "C/C++",
+        "SQL",
+        "R",
+        "HTML/CSS",
+        "JavaScript"
+      ]
+    },
+    {
+      "name": "Frameworks & Tools",
+      "keywords": [
+        "React",
+        "Node.js",
+        "Pandas",
+        "NumPy",
+        "Postman",
+        "JIRA",
+        "Git",
+        "CI/CD"
+      ]
+    },
+    {
+      "name": "Technologies",
+      "keywords": [
+        "Data Analysis",
+        "Machine Learning",
+        "Big Data",
+        "Edge Computing",
+        "Cloud Computing"
+      ]
+    },
+    {
+      "name": "Soft Skills",
+      "keywords": [
+        "Communication",
+        "Teamwork",
+        "Problem-Solving",
+        "Innovation",
+        "Bilingual (English/French)"
+      ]
+    }
+  ]
+}

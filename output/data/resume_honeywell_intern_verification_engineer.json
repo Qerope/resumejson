@@ -1,0 +1,131 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Hamed Tavakoli Dastjerdi",
+    "label": "uOttawa CS Student, Hitachi Intern",
+    "email": "HamedTava@outlook.com",
+    "phone": "(613) 294-6363",
+    "location": {
+      "address": "36 Robinson Ave.",
+      "postalCode": "K1N 0G4",
+      "city": "Ottawa",
+      "countryCode": "CA",
+      "region": "Ontario"
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "Qerope",
+        "url": "https://Github.com/Qerope"
+      },
+      {
+        "network": "Linkedin",
+        "username": "/Qerope",
+        "url": "https://linkedin.com/in/Qerope"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Hitachi",
+      "position": "Site Deployment Intern",
+      "startDate": "2024-05-01",
+      "endDate": "Present",
+      "summary": "Reduced deployment time by 300% through the development of automated configuration scripts. \n Designed automated predictive maintenance systems, reducing operational downtime by 20%. \n Ensured system safety and reliability by conducting comprehensive functional tests."
+    },
+    {
+      "name": "Broken Teapot Studios Inc.",
+      "position": "Game Developer Intern",
+      "startDate": "2024-01-01",
+      "endDate": "2024-01-31",
+      "summary": "Implemented dynamic AI routines for NPCs, improving gameplay fluidity. \n Optimized software performance by 115% through code refactoring. \n Developed processes for high-reliability testing to ensure performance under stress."
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "uOttaHack",
+      "position": "Development Lead",
+      "startDate": "2023-07-01",
+      "endDate": "Present"
+    },
+    {
+      "organization": "Engineering Students' Society, University of Ottawa",
+      "position": "Board of Directors Member",
+      "startDate": "2023-09-01",
+      "endDate": "2024-04-30"
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Ottawa",
+      "url": "https://uottawa.ca",
+      "area": "Computer Science, Minor in Physics",
+      "studyType": "Bachelor of Science",
+      "startDate": "2022-09-01",
+      "endDate": "2026-04-01",
+      "summary": "Actively engaged in research involving system safety, reliability, and testing methodologies. Merit scholarships over $40,000/annum. Dean's honour list."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming",
+      "keywords": [
+        "Python",
+        "C/C++",
+        "Java",
+        "MATLAB",
+        "Shell Scripting"
+      ]
+    },
+    {
+      "name": "Testing and Verification",
+      "keywords": [
+        "System Testing",
+        "Functional Testing",
+        "Safety Assurance",
+        "Performance Testing",
+        "Reliability Engineering"
+      ]
+    },
+    {
+      "name": "Tools",
+      "keywords": [
+        "Git",
+        "JIRA",
+        "CI/CD",
+        "Postman",
+        "Docker",
+        "MATLAB",
+        "Jenkins"
+      ]
+    },
+    {
+      "name": "Technologies",
+      "keywords": [
+        "Aircraft Systems",
+        "Edge Computing",
+        "Modeling",
+        "Automation",
+        "Aviation Systems"
+      ]
+    },
+    {
+      "name": "Soft Skills",
+      "keywords": [
+        "Teamwork",
+        "Analytical Thinking",
+        "Adaptability",
+        "Attention to Detail",
+        "Continuous Learning"
+      ]
+    },
+    {
+      "name": "Languages",
+      "keywords": [
+        "English",
+        "French",
+        "Persian"
+      ]
+    }
+  ]
+}
