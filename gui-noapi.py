@@ -14,7 +14,7 @@ logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %
 cohere_api_key = "39TAyPgeBqHh9rFoQLDtZL26dluSbjIqBBtjHnEa"  # Replace with your actual API key securely in production
 cohere_client = ClientV2(api_key=cohere_api_key)
 
-chat_prompt = "\nTailor this CV to apply for the following job position outline. USE THE SAME EXACT FORMAT AND TRY TO KEEP THE SIZE RELEATIVELY THE SAME. Change, and improve wherever needed based on the first reference point and job description. Do not add anything not referred before. Try to only keep the relevant. Make sure skills and everything matches with whatever the job description is demanding. You are only allowed to change/add/modify skills section. Other sections may only be modified using the reference (except in description which you may add relevant points to the job posting)\n"
+chat_prompt = "\nTailor this CV to apply for the following job position outline. USE THE SAME EXACT JSON FORMAT AND TRY TO KEEP THE SIZE RELEATIVELY THE SAME. Change, and improve wherever needed based on the first reference point and job description. Do not add anything not referred before. Try to only keep the relevant. Make sure skills and everything matches with whatever the job description is demanding. You are only allowed to change/add/modify skills section. Other sections may only be modified using the reference (except in description which you may add relevant points to the job posting)\n"
 
 # Async function to generate PDF
 async def generate_pdf_with_chromium(resume_html, output_pdf_path):
