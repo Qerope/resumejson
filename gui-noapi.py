@@ -206,4 +206,4 @@ def main_interface():
 # Launch the app
 if __name__ == "__main__":
     logging.info("Launching Gradio app...")
-    main_interface().launch()
+    main_interface().launch(server_name="0.0.0.0", server_port=7860)
