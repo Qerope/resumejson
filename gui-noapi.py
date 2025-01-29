@@ -121,14 +121,14 @@ async def generate_resume(cv_data_raw, job_data):
         logging.info(f"Resume generated successfully: {output_html_path}")
 
         os.makedirs("./output/pdf", exist_ok=True)
-        output_pdf_path = f"./output/pdf/{job_data['shortname']}.pdf"
+        output_pdf_path = f"/output/pdf/{job_data['shortname']}.pdf"
         
         # Generate the PDF asynchronously
         resume_html = await display_html(output_html_path)  # Read HTML content
         await generate_pdf_with_chromium(resume_html, output_pdf_path)  # Generate PDF
         
         logging.info(f"Resume PDF generated successfully at {output_pdf_path}")
-        return resume_html, f'<a href="file://{os.path.abspath(output_pdf_path)}" > {output_pdf_path} </a>'   # Return the path to the HTML resume
+        return resume_html, f'<a href="{output_pdf_path}" > {output_pdf_path} </a>'   # Return the path to the HTML resume
 
     except Exception as e:
         logging.error(f"Error generating resume: {str(e)}")
