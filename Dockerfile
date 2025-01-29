@@ -45,4 +45,4 @@ RUN python -m playwright install
 EXPOSE 7860
 
 # Command to run the application (modify this if your app has a different entry point)
-CMD ["python", "app.py"]
+CMD ["python", "gui-noapi.py"]
